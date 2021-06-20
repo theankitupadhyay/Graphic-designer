@@ -64,21 +64,6 @@ html{
 	scroll-behavior: smooth;
 }
 
-.navbar-brand{
-	background: #1957f3;
-	color: #fff;
-	text-align: center;
-	text-transform: uppercase;
-	padding: 0 25px;
-	letter-spacing: 1px;
-	line-height: 2;
-	transform: skewX(30deg);
-}
-
-.navbar-brand span{
-	transform: skewX(-30deg);
-}
-
 .navbar-dark .navbar-nav .nav-link{
 	color: #fff;
 	font-weight: 700;
@@ -111,6 +96,9 @@ html{
 	color: #333 !important;
 }
 
+.navbar-dark{
+	background: transparent;
+}
 /*** section title css ***/
 
 .section_title{
